@@ -9,4 +9,7 @@
 # 24 -> 4  16  4
 # 60 -> 10  40  10
 
-amount
+amount = int(input('Введите общее количество журавликов: '))
+Petya_and_Sergey = amount/6
+Katya = (amount/6)*4
+print(Petya_and_Sergey, Katya, Petya_and_Sergey )
